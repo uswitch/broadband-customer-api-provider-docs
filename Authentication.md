@@ -3,6 +3,8 @@ Access to the API is controlled using temporary JSON Web Tokens (JWT).
 
 Before using the API, you will be issued with two pieces of information, a **Client ID** and a **Client Secret**. These are used to obtain tokens.
 
+![image](https://user-images.githubusercontent.com/2581278/110963604-2f574880-834a-11eb-95ef-92b958100ece.png)
+
 
 ## Step 1 — Fetch an access token
 Request an access token as per the example below.
