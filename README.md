@@ -12,7 +12,7 @@ Our API makes available information about the customers you have acquired throug
 
 If you're an developer integrating with our API, we suggest reading the following: 
 - [Authentication guide](https://github.com/uswitch/broadband-customer-api-provider-docs/blob/main/Authentication.md) for how to authenticate
-- [API guide](https://github.com/uswitch/broadband-customer-api-provider-docs/blob/main/api-guide.md) for how to query our endpoints
+- [API endpoints](https://github.com/uswitch/broadband-customer-api-provider-docs/blob/main/api-endpoints.md) for how to query our endpoints
 
 
 # How do I join?
