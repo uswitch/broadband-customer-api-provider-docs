@@ -18,12 +18,12 @@ It expects a _?shared_customer_id=_ param and returns all the customer informati
 ```
 curl --request GET \
      --header 'authorization: Bearer eyJ0eXAiO...Redacted...' \
-     --url 'https://broadband-customer-api-staging.external.usw.co/customer?shared_journey_id=example'
+     --url 'https://broadband-customer-api-staging.external.usw.co/customer?shared_journey_id=mock'
 ```
 
 
 **Example response:**
-_https://broadband-customer-api-staging.external.usw.co/customer?shared_journey_id=example_
+_https://broadband-customer-api-staging.external.usw.co/customer?shared_journey_id=mock_
 
 ```
 {
