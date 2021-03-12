@@ -32,11 +32,11 @@ _https://broadband-customer-api-staging.external.usw.co/customer?shared_journey_
   "address": {
     "number": "13",
     "udprn": "5896100055585896",
-    "uprn": "100055585896",
+    "uprn": "15585896",
     "premise": "13",
-    "street": "Mandela Street",
-    "postcode": "NP1 0DU",
-    "addressline1": "13 Mandela Street",
+    "street": "Mand Road",
+    "postcode": "NP8 0DU",
+    "addressline1": "13 Mand Road",
     "posttown": "London"
   },
   ...
