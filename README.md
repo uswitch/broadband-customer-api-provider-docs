@@ -1,6 +1,7 @@
 # Broadband customer API
-Our API provides partners with the means to access customer journey data from Uswitch. 
-We want to give customers the best possible experience of switching their broadband. This API aims to reduce the duplication of data capture on both Uswitch and Provider sites, if a customer needs to give us an address and the provider will also need that address we will use this API to share data accross so the user has a smoother experience.
+**We want to support customers through the best possible broadband switching experience. **
+
+Our API provides partners with the means to access customer journey data from Uswitch. This API aims to reduce the duplication of data capture on both Uswitch and Provider sites, if a customer needs to give us an address and the provider will also need that address we will use this API to share data accross so the user has a smoother experience.
 
 ![image](https://user-images.githubusercontent.com/2581278/110932740-c8bf3400-8323-11eb-9027-4015c9fce6e5.png)
 
