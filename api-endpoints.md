@@ -1,5 +1,5 @@
 # Environment URLs
-There are production and staging environments, delineated by URL.
+There are production and staging environments, determined by URL.
 
 Production: https://broadband-customer-api-production.external.usw.co/
 
@@ -7,12 +7,11 @@ Staging: https://broadband-customer-api-staging.external.usw.co/
 
 The staging environment is only used for initial onboarding and testing. It does not contain real customer data.
 
-
 # Endpoints
 
 ### GET /customer
 
-It expects a _?shared_customer_id=_ param and returns all the customer information we agreed to share between Uswitch and the provider. 
+It expects a _?sharedJourneyId=_ param and returns agreed customer information collected on Uswitch for the provider. 
 
 **Example request:**
 ```
@@ -27,17 +26,15 @@ _https://broadband-customer-api-staging.external.usw.co/customer?shared_journey_
 
 ```
 {
-  ...,
-  "shared_journey_id": "example",
+  "sharedJourneyId": "UUIDv1",
   "address": {
-    "number": "13",
-    "udprn": "5896100055585896",
-    "uprn": "15585896",
-    "premise": "13",
-    "street": "Mand Road",
-    "postcode": "NP8 0DU",
-    "addressline1": "13 Mand Road",
-    "posttown": "London"
+    "summaryLine": "Flat 10, Ambassador Court, 30 Inglewood Road, London, NW6 1RY",
+    "addressLine1": "Flat 10, Ambassador Court",
+    "addressLine2": "30 Inglewood Road",
+    "postTown": "London",
+    "postcode": "NW6 1RY",
+    "udprn": "17725535",
+    "uprn": "5061682",
   },
   ...
 }
