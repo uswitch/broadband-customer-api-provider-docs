@@ -17,12 +17,12 @@ It expects a _?sharedJourneyId=_ param and returns agreed customer information c
 ```
 curl --request GET \
      --header 'authorization: Bearer eyJ0eXAiO...Redacted...' \
-     --url 'https://broadband-customer-api-staging.external.usw.co/customer?shared_journey_id=mock'
+     --url 'https://broadband-customer-api-staging.external.usw.co/customer?sharedJourneyId=mock'
 ```
 
 
 **Example response:**
-_https://broadband-customer-api-staging.external.usw.co/customer?shared_journey_id=mock_
+_https://broadband-customer-api-staging.external.usw.co/customer?sharedJourneyId=mock_
 
 ```
 {
